@@ -64,7 +64,7 @@ const NavBar = () => {
                     X
                   </button>
                   <button
-                    onClick={() => logout({ returnTo: window.location.origin })}
+                    onClick={() => logout({ returnTo: "https://frontend-main.osc-fr1.scalingo.io/" })}
                     className="link logout-btn"
                   >
                     Log Out
